@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+.wrapper {
+    width: 595px;
+    margin: 0px auto;
+    background-color: #FFFFFF;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.background {
+    width: 595px;
+    height: 150px;
+}
+
+.photo {
+    margin-top: -70px;
+    width: 140px;
+    height: 140px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+}
+.name {
+    text-align: center;
+    font: 32px 'Trirong';
+    color: #212121;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.job-title  {
+    text-align: center;
+    font: 10px 'Work Sans';
+    letter-spacing: 0.6px;
+    line-height: 19px;
+    opacity: 70%;
+    margin-bottom: 20px;
+}
+
+.main {
+    display: flex;
+    margin: 0px auto;
+}
+
+.main_info {
+    width: 195px;
+    margin: 0px 20px 0px 30px;
+}
+
+.employment {
+    width: 400px;
+    margin: 0px 30px 0px 20px;
+}
+
+.education_title, .skills_title, .employment_title, .worked_with_title {
+    font: 13px 'Trirong';
+    font-weight: 600;
+}
+
+.profile_title {
+    font: 13px 'Trirong';
+    font-weight: 600;
+}
+
+.education {
+    margin-top: 30px;
+}
+
+.place_of_education {
+    margin-top: 20px;
+}
+
+.place_of_education, .employment_work {
+    font: 11px 'Trirong';
+    font-weight: 600;
+}   
+
+.speciality, .employment_info {
+    font: 11px 'Work Sans';
+    line-height: 17px;
+    opacity: 70%;
+    margin-bottom: 0px;
+}
+
+.profile_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profile_info_text {
+    font: 11px 'Trirong';
+    line-height: 8px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.profile_info_meaning {
+    font: 11px 'Work Sans';
+    opacity: 70%;
+    line-height: 8px;
+}
+
+.education_date {
+    font: 10px 'Work Sans';
+    opacity: 40%;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.skills {
+    margin-top: 30px;
+}
+
+.skills_info {
+    font: 11px 'Work Sans';
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.skills_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skills_list {
+    margin-bottom: 10px;
+}
+
+.employment_date {
+    font: 10px 'Work Sans';
+    opacity: 40%;
+}
+
+.employment_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.employment_info {
+    margin-top: -5px;
+    margin-bottom: 20px;
+    font: 11px 'Work Sans';
+    line-height: 17px;
+}
+
+.worked_with_title {
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+.image {
+    width: 300px;
+    height: 40px;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(/WorkSans.ttf);
+}
+
+@font-face {
+    font-family: 'Trirong';
+    src: url(/Trirong-Regular.ttf);
+}
