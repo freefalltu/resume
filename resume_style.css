@@ -9,25 +9,25 @@ body {
     background-color: #FFFFFF;
 }
 
-.pictures {
+.header__pictures {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.background {
+.header__pictures-background {
     width: 595px;
     height: 150px;
 }
 
-.photo {
+.header__pictures-photo {
     margin-top: -70px;
     width: 140px;
     height: 140px;
     border: 3px solid #FFFFFF;
     border-radius: 50%;
 }
-.name {
+.header__name {
     text-align: center;
     font: 32px 'Trirong';
     color: #212121;
@@ -35,7 +35,7 @@ body {
     line-height: 25px;
 }
 
-.job-title  {
+.header__job-title  {
     text-align: center;
     font: 10px 'Work Sans';
     letter-spacing: 0.6px;
@@ -49,22 +49,22 @@ body {
     margin: 0px auto;
 }
 
-.main_info {
+.main__aside {
     width: 195px;
     margin: 0px 20px 0px 30px;
 }
 
-.employment {
+.main__info {
     width: 400px;
     margin: 0px 30px 0px 20px;
 }
 
-.education_title, .skills_title, .employment_title, .worked_with_title {
+.education__title, .skills__title, .employment__title, .worked__title {
     font: 13px 'Trirong';
     font-weight: 600;
 }
 
-.profile_title {
+.main__profile-title {
     font: 13px 'Trirong';
     font-weight: 600;
 }
@@ -73,42 +73,42 @@ body {
     margin-top: 30px;
 }
 
-.place_of_education {
+.education__info-place {
     margin-top: 20px;
 }
 
-.place_of_education, .employment_work {
+.education__info-place, .employment__group-work {
     font: 11px 'Trirong';
     font-weight: 600;
 }   
 
-.speciality, .employment_info {
+.education__info-speciality, .employment__group-info {
     font: 11px 'Work Sans';
     line-height: 17px;
     opacity: 70%;
     margin-bottom: 0px;
 }
 
-.profile_group {
+.main__profile-group {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.profile_info_text {
+.main__profile-group-text {
     font: 11px 'Trirong';
     line-height: 8px;
     font-weight: 600;
     letter-spacing: -0.5px;
 }
 
-.profile_info_meaning {
+.main__profile-group-meaning {
     font: 11px 'Work Sans';
     opacity: 70%;
     line-height: 8px;
 }
 
-.education_date {
+.education__info-date {
     font: 10px 'Work Sans';
     opacity: 40%;
     margin-top: 5px;
@@ -119,40 +119,40 @@ body {
     margin-top: 30px;
 }
 
-.skills_info {
+.skills__block-info {
     font: 11px 'Work Sans';
     margin: 0 0 0 10px;
     padding: 0;
 }
 
-.skills_block {
+.skills__block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.skills_list {
+.skills__info-list {
     margin-bottom: 10px;
 }
 
-.employment_date {
+.employment__group-date {
     font: 10px 'Work Sans';
     opacity: 40%;
 }
 
-.employment_group {
+.employment__group {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.employment_info {
+.employment__group-info {
     margin-top: -5px;
     margin-bottom: 20px;
     font: 11px 'Work Sans';
     line-height: 17px;
 }
 
-.worked_with_title {
+.worked__title {
     margin-top: 50px;
     margin-bottom: 5px;
 }
@@ -164,10 +164,10 @@ body {
 
 @font-face {
     font-family: 'Work Sans';
-    src: url(/WorkSans.ttf);
+    src: url(WorkSans.ttf);
 }
 
 @font-face {
     font-family: 'Trirong';
-    src: url(/Trirong-Regular.ttf);
+    src: url(Trirong-Regular.ttf);
 }
